@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1757281508.28375 "main.tex" "main.pdf" "main" 1757281509.24109 0
+["pdflatex"] 1757283070.53593 "main.tex" "main.pdf" "main" 1757283071.49171 0
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1202520719 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -220,10 +220,10 @@
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1748745534 3568731 7b1d5fcf945fa11d16cb41a552bb9a8b ""
   "/usr/local/texlive/2025/texmf.cnf" 1748745465.77971 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
   "estilos.tex" 1749312547.69376 869 fe4a3ef7a4946ab4558ccb2e3dbc06e5 ""
-  "main.aux" 1757281509.12361 1276 7ad66f6ea51f809953aa78e6dc8f45dd "pdflatex"
-  "main.out" 1757281509.12559 865 cb0dac10f487c38ddd61c5509b0a5f47 "pdflatex"
+  "main.aux" 1757283071.40221 1276 7ad66f6ea51f809953aa78e6dc8f45dd "pdflatex"
+  "main.out" 1757283071.4028 865 cb0dac10f487c38ddd61c5509b0a5f47 "pdflatex"
   "main.tex" 1757275585.32182 1090 b347c680e025d52fc61cc1ace84828f2 ""
-  "main.toc" 1757281509.12559 558 8b5648eaf85885be0cc2fbdfdcf1e815 "pdflatex"
+  "main.toc" 1757283071.4028 558 8b5648eaf85885be0cc2fbdfdcf1e815 "pdflatex"
   "nuevos-comandos.tex" 1757277676.09645 2705 8ba6e6192427613912d9e981463b80b9 ""
   "paquetes.tex" 1757279279.9383 1716 a35be38fee709b4ae737ad9d5a1e9c6a ""
   "porcentaje/calculo.tex" 1757280909.17529 1937 5b402c94b1c032ffe209ce0c371f3575 ""
@@ -234,7 +234,7 @@
   "precio/unitario.tex" 1757280851.46576 965 222c6dd26f9127e31a8c0bf500497e74 ""
   "renombrar-comandos.tex" 1749312547.697 282 c14f38761f1cf6c9aec177fd7a39c2cd ""
   "salario/ref-salario.tex" 1757280466.65733 94 b69faad3f8f58cebf29c1cb45c185590 ""
-  "salario/tiempo.tex" 1757280656.21369 1183 83d98ed16b32f62c721898343df71c65 ""
+  "salario/tiempo.tex" 1757283069.23545 1451 45046bfc8c0ad3e3f8bbbcb3784e4ea5 ""
   (generated)
   "main.aux"
   "main.log"

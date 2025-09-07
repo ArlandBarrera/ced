@@ -4,7 +4,7 @@ El salario ($s$), expresado en una unidad monetaria (como dinero en dolares \$, 
   r = \dfrac{s}{t} = \dfrac{\$}{h}
 \]
 
-El salario en función del tiempo se puede expresar se la siguiente forma:
+El salario en función del tiempo se puede expresar de la siguiente forma:
 
 \[\boxed{
   s(t) = rt + s_0
@@ -21,7 +21,7 @@ En este caso el salario es constante en el tiempo.
   \item $t$: tiempo trabajado, expresado en la misma unidad que $r$.
 \end{itemize}
 
-Suponiendo un $r$ de 20, se obtiene la siguientes función:
+Suponiendo un $r$ de 20, se obtiene la siguiente función:
 
 \[
   s(t) = 20t
@@ -32,9 +32,9 @@ Tabla de valores:
 \begin{center}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
   \hline
-  s & 20 & 40 & 60 & 80 & 100 & 120 & 140 & 160 \\
+  s(\$) & 20 & 40 & 60 & 80 & 100 & 120 & 140 & 160 \\
   \hline
-  t & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\
+  t(h) & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\
   \hline
 \end{tabular}
 \end{center}
@@ -43,10 +43,13 @@ Gráfica:
 
 \begin{tikzpicture}
   \begin{axis}[
-    xmin=0,xmax=6,
-    ymin=0,ymax=110,
-    axis lines=left
+    xlabel=$t(h)$,
+    ylabel=$s(\$)$,
+    xmin=0,xmax=9,
+    ymin=0,ymax=170,
+    axis lines=middle
     ]
-  \addplot[color=blue, thick]{x*20};
+  \addplot[domain=0:8,color=blue,thick]{x*20}
+  node[right,pos=0.5,black,thick]{$r\left(\dfrac{\$}{h}\right)$};
 \end{axis}
 \end{tikzpicture}
