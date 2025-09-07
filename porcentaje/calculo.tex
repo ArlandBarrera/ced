@@ -1,0 +1,50 @@
+En ocaciones es necesario hacer un cálculo rápido de un porcentaje. Una forma rápida de hacerlo es tomando como referencia ciertos patrones que se repiten en todos los valores que involucran porcentajes.
+
+El porcentaje se puede dividir en dos partes: una decena (\textbf{d}) y una fracción (\textbf{f}). La \textbf{decena} hace referencia al \textbf{10\%} del valor. La \textbf{fracción} corresponde con una parte del valor de la decena. Un valor porcentual se divide entonces en:
+
+\begin{itemize}
+  \item \textbf{d:} corresponde a la cantidad de veces que se repite la decena, d*10\%.
+  \item \textbf{f:} refiere a una fraccion del valor del 10\%.
+\end{itemize}
+
+Por tanto un valor porcentual se puede ver de esta forma \textbf{df\%}. El cual se puede descomponer de la siguiente forma:
+
+\begin{align*}
+  df\% &= df\% \\
+  df\% &= (d + f)\% \\
+  df\% &=\dfrac{d*10 + f}{100} \\
+  df\% &= \dfrac{d}{100} + \dfrac{f}{100} \\
+  df\% &= \dfrac{d*10}{10*10} + \dfrac{f}{10*10} \\
+  df\% &= \dfrac{d}{10} + \dfrac{f}{10*10} \\
+  df\% &= \left( d + \dfrac{f}{10} \right)\dfrac{1}{10} \\
+\end{align*}
+
+Considerando un valor \textbf{a}, del cual quiere se desea obtener un porcentaje de su valor \textbf{b}, se tiene lo siguiente expresión para el tanto porciento ($df\%$) de \textbf{a}:
+
+\[\boxed{
+  b = \left( d + \dfrac{f}{10} \right)\dfrac{a}{10}
+}\]
+
+Para las computadoras esto es más lento que multiplicar $df\%*a$ directamente, dado que es solo una operación.
+
+\textbf{Ejemplos:}
+
+\textbf{1)} 36\% de 56
+
+\begin{align*}
+  b &= \left( 3 + \dfrac{6}{10} \right)\dfrac{56}{10} \\
+  b &= \left( 3 + \dfrac{6}{10} \right)5.6 \\
+  b &= 3*5.6 + \dfrac{6*5.6}{10} \\
+  b &= 16.8 + 3.36 \\
+  b &= 20.16
+\end{align*}
+
+\textbf{2)} 73\% de 8
+
+\begin{align*}
+  b &= \left( 7 + \dfrac{3}{10} \right)\dfrac{8}{10} \\
+  b &= \left( 7 + \dfrac{3}{10} \right)0.8 \\
+  b &= 7*0.8 + \dfrac{3*0.8}{10} \\
+  b &= 5.6 + 0.24 \\
+  b &= 5.84
+\end{align*}

@@ -1,0 +1,91 @@
+% ------------------------------
+% Lista de temas y subtemas
+% ------------------------------
+% NOTE: Elementos en una lista
+% referencia: previamente se define el directorio del tema
+% Separar: es recomendable usar comas, no espacios
+% Nombrar: NO USAR guion (-), barra baja (_) o espacio (' ')
+% Definir: usar el mismo nombre del directorio del tema
+
+% ----------- TEMAS -----------
+% Temas de capitulos personalizados
+% Aqui se colocan los temas definidos por el usuario
+% Mirar el ejemplo abajo
+% descomentar y editar la siguiente linea de abajo
+% \newcommand{\temas}{}
+
+% NOTE: Esto es solo un ejemplo
+% Eliminar o comentar la linea de abajo y definir nuevos temas arriba
+% Eliminar los direcotorios respectivos si no se requieren
+
+\newcommand{\temas}{porcentaje,precio,salario}
+
+% ----------- SUBTEMAS -----------
+% Subtemas especificos dentro de los capitulos
+% Aqui se colocan los subtemas definidos por el usuario
+% Mirar el ejemplo abajo
+% descomentar y editar la siguiente linea de abajo
+% \newcommand{\subtemas}{}
+
+% NOTE: Esto es solo un ejemplo
+% Eliminar o comentar la linea de abajo y definir nuevos subtemas arriba
+% Eliminar los direcotorios respectivos si no se requieren
+
+% \newcommand{\subtemas}{subtemauno,subsubtemauno,profundouno,subtemados,subsubtemados,profundodos}
+
+% ------------------------------
+% Hipervinculos
+% ------------------------------
+% NOTE: Si no se necesitan hipervinculos
+% Eliminar los links de temas y subtemas
+% Comentar o eliminar la linea de abajo y/o eliminar el archivo indicado
+
+% \input{hipervinculos.tex}
+
+% ------------------------------
+% Automatizar [in]put a [cap]itulos -> \incap
+% ------------------------------
+\newcommand{\incap}[1]{
+  \input{#1/ref-#1.tex}
+}
+
+% [It]erar temas con [in]put [cap]itulo -> \itincap
+%
+\newcommand{\itincap}[1]{
+  \forcsvlist{\incap}{#1}
+}
+
+% ------------------------------
+% Lista de graficas
+% Nuevo entorno flotante para graficas
+% ------------------------------
+
+% ---------- Descomentar para habilitar ----------
+% \newfloat{grafica}{htbp}{lop}[chapter]
+% \floatname{grafica}{Gráfica}
+
+% ------------------------------
+% Lista de ecuaciones
+% Nuevo entorno flotante para ecuaciones
+% ------------------------------
+
+% ---------- Descomentar para habilitar ----------
+% \newfloat{ecuacion}{htbp}{loe}[chapter]
+% \floatname{ecuacion}{Ecuación}
+
+% Listar y crear caja (box) alrededor de una ecuacion
+% \newcommand{\listequbox}[3]{
+%   \begin{ecuacion}
+%     \begin{equation}
+%       \ensuremath{\boxed{#1}}
+%       \label{#2}
+%     \end{equation}
+%     \caption{#3}
+%   \end{ecuacion}
+% }
+
+% ------------------------------
+% Texto reutilizable - Strings
+% ------------------------------
+
+% \input{strings.tex}

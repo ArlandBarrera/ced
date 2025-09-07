@@ -1,0 +1,52 @@
+El salario ($s$), expreado en dinero (\$), tiene un comportamiento lineal respeto al tiempo ($t$), expresado en horas ($h$). Esta relación, salario por hora ($r$), se expresa en ($\$/h$). La expresión matemática es la siguiente:
+
+\[
+  r = \dfrac{s}{t} = \dfrac{\$}{h}
+\]
+
+El salario en función del tiempo se puede expresar se la siguiente forma:
+
+\[\boxed{
+  s(t) = rt + s_0
+}\]
+
+En este caso el salario es constante en el tiempo.
+
+\textbf{Elementos:}
+
+\begin{itemize}
+  \item $s(t)$: salario acumulado en el tiempo $t$.
+  \item $s_0$: salario inicial o base, si lo hay.
+  \item $r$: tasa de pago por unidad de tiempo.
+  \item $t$: tiempo trabajado, expresado en la misma unidad que $r$.
+\end{itemize}
+
+Suponiendo un $r$ de 20, se obtiene la siguientes función:
+
+\[
+  s(t) = 20t
+\]
+
+Tabla de valores:
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+  \hline
+  s & 20 & 40 & 60 & 80 & 100 & 120 & 140 & 160 \\
+  \hline
+  t & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\
+  \hline
+\end{tabular}
+\end{center}
+
+Gráfica:
+
+\begin{tikzpicture}
+  \begin{axis}[
+    xmin=0,xmax=6,
+    ymin=0,ymax=110,
+    axis lines=left
+    ]
+  \addplot[color=blue, thick]{x*20};
+\end{axis}
+\end{tikzpicture}
