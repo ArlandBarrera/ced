@@ -18,7 +18,7 @@
 % Eliminar o comentar la linea de abajo y definir nuevos temas arriba
 % Eliminar los direcotorios respectivos si no se requieren
 
-\newcommand{\temas}{porcentaje,precio,salario}
+\newcommand{\temas}{porcentaje,intereses,precio,salario}
 
 % ----------- SUBTEMAS -----------
 % Subtemas especificos dentro de los capitulos
@@ -61,8 +61,8 @@
 % ------------------------------
 
 % ---------- Descomentar para habilitar ----------
-% \newfloat{grafica}{htbp}{lop}[chapter]
-% \floatname{grafica}{Gráfica}
+\newfloat{grafica}{htbp}{lop}[chapter]
+\floatname{grafica}{Gráfica}
 
 % ------------------------------
 % Lista de ecuaciones
@@ -70,19 +70,19 @@
 % ------------------------------
 
 % ---------- Descomentar para habilitar ----------
-% \newfloat{ecuacion}{htbp}{loe}[chapter]
-% \floatname{ecuacion}{Ecuación}
+\newfloat{ecuacion}{htbp}{loe}[chapter]
+\floatname{ecuacion}{Ecuación}
 
 % Listar y crear caja (box) alrededor de una ecuacion
-% \newcommand{\listequbox}[3]{
-%   \begin{ecuacion}
-%     \begin{equation}
-%       \ensuremath{\boxed{#1}}
-%       \label{#2}
-%     \end{equation}
-%     \caption{#3}
-%   \end{ecuacion}
-% }
+\newcommand{\listequbox}[3]{
+  \begin{ecuacion}
+    \begin{equation}
+      \ensuremath{\boxed{#1}}
+      \label{#2}
+    \end{equation}
+    \caption{#3}
+  \end{ecuacion}
+}
 
 % ------------------------------
 % Texto reutilizable - Strings
