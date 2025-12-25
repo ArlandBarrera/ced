@@ -475,6 +475,16 @@ INPUT tarjetas/ref-tarjetas.tex
 INPUT ./tarjetas/def.tex
 INPUT ./tarjetas/def.tex
 INPUT tarjetas/def.tex
+INPUT ./img/CreditCardFront.png
+INPUT ./img/CreditCardFront.png
+INPUT ./img/CreditCardFront.png
+INPUT ./img/CreditCardFront.png
+INPUT ./img/CreditCardFront.png
+INPUT ./img/CreditCardBack.png
+INPUT ./img/CreditCardBack.png
+INPUT ./img/CreditCardBack.png
+INPUT ./img/CreditCardBack.png
+INPUT ./img/CreditCardBack.png
 INPUT ./tarjetas/elementos/front.tex
 INPUT ./tarjetas/elementos/front.tex
 INPUT tarjetas/elementos/front.tex
