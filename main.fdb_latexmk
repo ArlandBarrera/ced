@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1766607062.94586 "main.tex" "main.pdf" "main" 1766607065.22436 0
+["pdflatex"] 1766626870.85494 "main.tex" "main.pdf" "main" 1766626873.10584 0
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1202520719 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1202520719 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -243,13 +243,13 @@
   "intereses/tipos/compuesto.tex" 1762735092.07742 8197 e9148811f2298f05deb71e0c185fbf1c ""
   "intereses/tipos/continuo.tex" 1762736044.09547 1797 d74e752e93ca600ae8ede914c2e1fe4e ""
   "intereses/tipos/simple.tex" 1762734576.26409 3069 ad1439eb244ada8b1fb0cef967b014f5 ""
-  "main.aux" 1766607065.06028 6682 d4117eecd2273072a03ebc51a50bf2e1 "pdflatex"
-  "main.loe" 1766607065.06186 780 6080b0f3318fce727995075f02cc4c65 "pdflatex"
-  "main.lop" 1766607065.06186 435 f71cbebc612f3616d4721db0b1708357 "pdflatex"
-  "main.lot" 1766607065.06186 430 35ffc17fe91378d765ac1156c0013c01 "pdflatex"
-  "main.out" 1766607065.06186 3082 8ecb7addc3d70da5841fce71c6c7d333 "pdflatex"
+  "main.aux" 1766626872.95079 7179 bafcdd7efeec63a12e79a194a0574057 "pdflatex"
+  "main.loe" 1766626872.95279 780 6080b0f3318fce727995075f02cc4c65 "pdflatex"
+  "main.lop" 1766626872.95279 435 f71cbebc612f3616d4721db0b1708357 "pdflatex"
+  "main.lot" 1766626872.95279 525 239d0957e1f13d8c0c4c01efcfc7c272 "pdflatex"
+  "main.out" 1766626872.95279 3442 e60a44b974b8930a2e2f1d31b9ae7ec5 "pdflatex"
   "main.tex" 1762724683.27166 1084 056266effc24749c06170f1b1e159b39 ""
-  "main.toc" 1766607065.06186 2041 e8f05e975f34515ccb3570f6bc71e446 "pdflatex"
+  "main.toc" 1766626872.95279 2279 b8ad33209b62fa0a9355b485f06433f9 "pdflatex"
   "nuevos-comandos.tex" 1766594518.63953 2708 010174f8e4e498b9469ee0a07fb81aa6 ""
   "paquetes.tex" 1766601026.06646 1737 46804fd43c24fc326177fb09a9a63434 ""
   "porcentaje/calculo.tex" 1762724044.69111 1902 2fcf34da7a90f87a6d6c0fe792896fb3 ""
@@ -263,7 +263,9 @@
   "salario/ref-salario.tex" 1757280466.65733 94 b69faad3f8f58cebf29c1cb45c185590 ""
   "salario/tiempo.tex" 1762738612.26493 1742 08fb5c2fb315205df85672203a212196 ""
   "tarjetas/def.tex" 1765940489.97744 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "tarjetas/ref-tarjetas.tex" 1765940484.55218 65 288b8a3925f83cb279f61c39be345d1a ""
+  "tarjetas/elementos/back.tex" 1766626869.89339 728 67971d4102463bd8a35196ef7d03af49 ""
+  "tarjetas/elementos/front.tex" 1766626092.75593 3052 10d4ebe84fcc18bdeee439d74b1c1b01 ""
+  "tarjetas/ref-tarjetas.tex" 1766613678.71336 212 a884181aa692e36fd88c4f58f19aa32b ""
   (generated)
   "main.aux"
   "main.loe"

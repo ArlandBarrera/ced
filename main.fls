@@ -475,6 +475,12 @@ INPUT tarjetas/ref-tarjetas.tex
 INPUT ./tarjetas/def.tex
 INPUT ./tarjetas/def.tex
 INPUT tarjetas/def.tex
+INPUT ./tarjetas/elementos/front.tex
+INPUT ./tarjetas/elementos/front.tex
+INPUT tarjetas/elementos/front.tex
+INPUT ./tarjetas/elementos/back.tex
+INPUT ./tarjetas/elementos/back.tex
+INPUT tarjetas/elementos/back.tex
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out

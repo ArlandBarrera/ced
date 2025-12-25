@@ -1,0 +1,50 @@
+\textbf{Logo y nombre del emisor}: identifica a la entidad financiera que emite la tarjeta. Puede ser un banco, cooperativa de crédito u otra.
+
+\textbf{Logo de red}: muestra la red de pago. Puede ser Visa, MasterCard, American Express, entre otras.
+
+\textbf{Nombre del titular}: nombre de la persona propietaria de la tarjeta. Identifica quién está autorizado para usarla.
+
+\textbf{Número de tarjeta (PAN)}: \textbf{Primary Account Number}, número único generalmente de 16 dígitos que identifica la tarjeta. También es conocido como \textbf{número largo}. Sus componentes son:
+
+\begin{itemize}
+  \item \textbf{MII}: \textbf{Major Industry Identifier}, es el primer dígito e identifica la industria (viajes, banca, petroleo) y red de pago. Por ejemplo, 3 (34 o 37) corresponde a American Express, 4 a Visa, 2 o 5 a MasterCard, entre otros.
+  \item \textbf{BIN/IIN}: \textbf{Bank Identification Number} o \textbf{Issuer Identification Number}, corresponde a los 8 primeros dígitos incluyendo el MII. Anteriormente eran los 6 primeros dígitos, sin embargo, con la cantidad de tarjetas emitidas eventualmente se agotarían las combinaciones de 6 dígitos. En consecuencia, la International Organization for Standardization (ISO) modificó la convención a 8 dígitos a partir de 2022.
+  \item \textbf{Número de la cuenta}: luego del BIN, los siguientes dígitos se relacionan específicamente a la cuenta, excepto el último.
+  \item \textbf{Número de verificación}: el último dígito, se utiliza para verificar el PAN durante una transacción. Se obtiene utilizando el algoritmo de Luhn.
+\end{itemize}
+
+\begin{table}[H]
+  \caption{MII y tipos de tarjeta}
+  \begin{center}
+    \begin{tabular}{|c|c|}
+      \hline
+      \textbf{MII} & \textbf{Categoría de Industria} \\
+      \hline
+      1 & Aerolineas \\
+      \hline
+      2 & Aerolineas y finanzas \\
+      \hline
+      3 & Viajes y entretenimiento \\
+      \hline
+      4 & Banca y finanzas \\
+      \hline
+      5 & Banca y finanzas \\
+      \hline
+      6 & Mercancía, banca y finanzas \\
+      \hline
+      7 & Petroleo y otras futuras industrias \\
+      \hline
+      8 & Salud y comunicación \\
+      \hline
+      9 & Asignación Nacional \\
+      \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+
+
+\textbf{Chip EMV}: chip para transacciones ecriptadas, más seguro que la cinta magnética. EMV se refiere a las redes de pago Europay, MasterCard y Visa. Es un pequeño cuadrado dorado o plateado. Crea un código único de transcción para cada compra.
+
+\textbf{Fecha de expiración}: mes y año hasta cuando la tarjeta es válida, en formato \%m\%y.
+
+\textbf{Chip NFC}: \textbf{Near Field Communication}, identificado con el símbolo de una onda parecido al del Wi-Fi, se usa para `tocar-para-pagar'. Permite la comunicación inalámbrica ultra corta entre dos dispositivos (no más de 15 centímetros) para intercambiar datos de forma segura y sin necesidad de emparejamientos complejos. Funciona mediante inducción electromagnética, donde un dispositivo lee la tarjeta.
