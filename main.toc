@@ -28,3 +28,4 @@
 \contentsline {section}{\numberline {6.1}Elementos}{26}{section.6.1}%
 \contentsline {subsection}{\numberline {6.1.1}Parte Frontal}{26}{subsection.6.1.1}%
 \contentsline {subsection}{\numberline {6.1.2}Parte Trasera}{27}{subsection.6.1.2}%
+\contentsline {section}{\numberline {6.2}Algoritmo de Luhn}{27}{section.6.2}%

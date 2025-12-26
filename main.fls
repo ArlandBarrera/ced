@@ -491,6 +491,9 @@ INPUT tarjetas/elementos/front.tex
 INPUT ./tarjetas/elementos/back.tex
 INPUT ./tarjetas/elementos/back.tex
 INPUT tarjetas/elementos/back.tex
+INPUT ./tarjetas/luhn.tex
+INPUT ./tarjetas/luhn.tex
+INPUT tarjetas/luhn.tex
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out

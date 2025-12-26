@@ -1,0 +1,10 @@
+El \textbf{algoritmo de Luhm}, también conocido como \textbf{módulo 10} o \textbf{mod 10}, se utiliza para verificar el número de la tarjeta. Fue creado por el ingeniero de IBM \textbf{Hans Peter Luhn} en 1954. Consiste en una suma para validar un número utilizando el operador módulo de 10.
+
+El dígito de control del PAN se cálcula con este algoritmo, los pasos son los siguientes:
+
+\begin{enumerate}
+  \item Eliminar el dígito de control, si está presente.
+  \item Seleccionar números de derecha a izquiera, del último al primero. Doblar cada segundo dígito. Si el doble es un número mayor que 9, se suman los dígitos o se resta 9 al doble.
+  \item Sumar todos los dígitos resultantes, doblados como no doblados.
+  \item Verificar el dígito de control con la fórmula $(10-(s \mod 10))\mod 10$, donde $s$ es la suma del paso 3. Este es el número más pequeño, puede ser 0, que debe ser agregado a $s$ para ser múltiplo de 10.
+\end{enumerate}
