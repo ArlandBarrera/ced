@@ -8,3 +8,27 @@ El dígito de control del PAN se cálcula con este algoritmo, los pasos son los 
   \item Sumar todos los dígitos resultantes, doblados como no doblados.
   \item Verificar el dígito de control con la fórmula $(10-(s \mod 10))\mod 10$, donde $s$ es la suma del paso 3. Este es el número más pequeño, puede ser 0, que debe ser agregado a $s$ para ser múltiplo de 10.
 \end{enumerate}
+
+El algoritmo en pseudocódigo se muestra abajo:
+
+\begin{lstlisting}[style=general,caption=Luhn Check Digit]
+// suma los numeros de la tarjeta
+function luhn_checksum(num) {
+  int len = num.length;
+  int parity = len % 2; // 0 par, 1 impar
+  int sum = 0;
+  for (int i = len - 1; i >= 0; i--) {
+    int d = parseInt(num.charAt(i));
+    if (i % 2 == parity) { d *= 2 }
+    if (d > 9) { d -= 9 }
+    sum += d;
+  }
+  return sum % 10;
+}
+
+// calcula el digito de control
+function luhn_calculate (num) {
+  int control = luhn_checksum(num + "0");
+  return control == 0 ? 0 : (10 - control) \% 10;
+}
+\end{lstlisting}
